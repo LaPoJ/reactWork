@@ -5,7 +5,8 @@ const defaultState = {
   list: []
 }
 
-export default (state = defaultState, action) => {
+const todo = (state = defaultState, action) => {
+  console.log(action)
   if (action.type === CHANGE_INPUT) {
     let newState = JSON.parse(JSON.stringify(state))
     newState.inputValue = action.value
@@ -29,3 +30,5 @@ export default (state = defaultState, action) => {
   }
   return state
 }
+
+export default todo

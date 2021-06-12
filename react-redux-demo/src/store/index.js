@@ -1,6 +1,7 @@
 // import { createStore } from 'redux'
 import { createStore , applyMiddleware, compose} from 'redux'
 import reducer from './reducer'
+// import reducer from '../modules/reducer'
 import createSageMiddleware from 'redux-saga'
 import mySagas from './sagas'
 // import reduxThunk from 'redux-thunk'

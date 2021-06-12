@@ -1,0 +1,13 @@
+.login-div{
+  margin: 150px auto;
+  width: 400px;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 0 20px #cac6c6;
+  border-radius: 4px;
+}
+.login-div:hover{
+  border: 1px solid #409EFF;
+}
+body{
+  background-color: #f0f0f0;
+}
